@@ -144,6 +144,74 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-SQL优化实践记录一" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="问题1-字段未加索引"><a href="#问题1-字段未加索引" class="headerlink" title="问题1. 字段未加索引"></a>问题1. 字段未加索引</h1><ul>
+<li>这个简单，给相应字段加上索引即可，需要判断加单个索引还是组合索引<br>存在一个疑问，对于时间范围的两个字段，startTime和endTime,加上组合索引在执行计划中却为使用，但是单独给字段加索引是可以使用上的。</li>
+</ul>
+<h1 id="问题2-SQL字段存在大量to-char转换函数，导致索引失效"><a href="#问题2-SQL字段存在大量to-char转换函数，导致索引失效" class="headerlink" title="问题2. SQL字段存在大量to_char转换函数，导致索引失效"></a>问题2. SQL字段存在大量to_char转换函数，导致索引失效</h1><p><code>to_char(start_time,&#39;YYYY-MM-DD hh:mm:ss&#39;)</code> </p>
+<ul>
+<li>存在大量这种转换，奇怪的是传的参数是TIMESTAMP，存的类型也是TIMESTAMP，直接比较即可，或者使用TO_TIMESTAMP函数</li>
+</ul>
+<h1 id="问题3-查询条件中存在-or，导致索引组合失效-or-前面的字段索引可以生效"><a href="#问题3-查询条件中存在-or，导致索引组合失效-or-前面的字段索引可以生效" class="headerlink" title="问题3. 查询条件中存在 or，导致索引组合失效,or 前面的字段索引可以生效"></a>问题3. 查询条件中存在 or，导致索引组合失效,or 前面的字段索引可以生效</h1><ul>
+<li>如果业务必须使用or，则单独给每个字段加索引，但是会进行回表扫描，解决回表扫描需要创建覆盖索引，即创建查询条件和需要返回的字段的组合索引</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/数据库//" class="article-tag-list-link color4">数据库</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/10/13/SQL%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5%E8%AE%B0%E5%BD%95%E4%B8%80/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-windbg分析蓝屏dump" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
