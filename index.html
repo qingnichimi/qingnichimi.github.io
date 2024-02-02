@@ -144,12 +144,88 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-TeamSpeak服务端搭建" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="TeamSpeak服务端搭建"><a href="#TeamSpeak服务端搭建" class="headerlink" title="TeamSpeak服务端搭建"></a>TeamSpeak服务端搭建</h1><p>买了个轻量应用服务器，想着搞点东西玩玩</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ol>
+<li>服务端压缩包<br> <a target="_blank" rel="noopener" href="https://www.teamspeak.com/en/downloads/#server">https://www.teamspeak.com/en/downloads/#server</a></li>
+<li>客户端<br><a target="_blank" rel="noopener" href="https://www.teamspeak.com/en/downloads/#ts3client">https://www.teamspeak.com/en/downloads/#ts3client</a></li>
+</ol>
+<h2 id="安装部署"><a href="#安装部署" class="headerlink" title="安装部署"></a>安装部署</h2><ol>
+<li>上传服务端压缩包到Linux服务器，解压<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xvf teamspeak3-server_linux_amd64-3.13.7.tar.bz2</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> teamspeak3-server_linux_amd64</span><br></pre></td></tr></table></figure></li>
+<li>创建同意许可条款文件<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">touch</span> .ts3server_license_accepted</span><br></pre></td></tr></table></figure></li>
+<li>启动服务<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./ts3server_startscript.sh start</span><br></pre></td></tr></table></figure></li>
+<li>第一次启动后会有秘钥和管理员账号密码，需要将其记下，后面用到<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">----------------------------------------------------------------- </span><br><span class="line">I M P O R T A N T </span><br><span class="line">------------------------------------------------------------------ </span><br><span class="line">Server Query Admin Account created </span><br><span class="line">loginname= <span class="string">&quot;666&quot;</span>, password= <span class="string">&quot;666&quot;</span> </span><br><span class="line">apikey= <span class="string">&quot;666&quot;</span> </span><br><span class="line">------------------------------------------------------------------ </span><br><span class="line">------------------------------------------------------------------ </span><br><span class="line">I M P O R T A N T </span><br><span class="line">------------------------------------------------------------------ </span><br><span class="line">ServerAdmin privilege key created, please use it to gain </span><br><span class="line">serveradmin rights <span class="keyword">for</span> your virtualserver. please </span><br><span class="line">also check the doc/privilegekey_guide.txt <span class="keyword">for</span> details. </span><br><span class="line">token=666</span><br><span class="line">------------------------------------------------------------------ </span><br></pre></td></tr></table></figure></li>
+<li>需要打开UDP 9987端口</li>
+</ol>
+<h2 id="客户端连接"><a href="#客户端连接" class="headerlink" title="客户端连接"></a>客户端连接</h2><ol>
+<li>打开TS客户端，点击连接菜单，输入服务器IP或者域名，Nickname可以自定义,首次连接不需要输入密码<br><img src="https://raw.githubusercontent.com/qingnichimi/pictrue/master/blog/1706855898308.jpg"></li>
+<li>连接成功后会要求输入token，即上述启动成功后所显示的</li>
+<li>这样就完成TS的服务搭建。其他的具体用法还需要慢慢研究。</li>
+</ol>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/云服务器//" class="article-tag-list-link color5">云服务器</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2024/02/02/TeamSpeak%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%90%AD%E5%BB%BA/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-windbg分析蓝屏dump" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>最近一段时间电脑经常蓝屏，所以在网上寻找原因以及解决方法，发现其中一个分析工具</p>
+        <h1 id="windows蓝屏分析"><a href="#windows蓝屏分析" class="headerlink" title="windows蓝屏分析"></a>windows蓝屏分析</h1><p>最近一段时间电脑经常蓝屏，所以在网上寻找原因以及解决方法，发现其中一个分析工具</p>
 <h1 id="1-下载安装windbg"><a href="#1-下载安装windbg" class="headerlink" title="1.下载安装windbg"></a>1.下载安装windbg</h1><ul>
 <li><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/">https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/</a></li>
 </ul>
