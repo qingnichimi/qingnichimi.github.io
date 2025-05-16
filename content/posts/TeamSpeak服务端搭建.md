@@ -3,7 +3,7 @@ title: 'TeamSpeak服务端搭建'
 date: '2024-05-20'
 description: '服务器'
 ---
-# TeamSpeak服务端搭建
+## 前言
 买了个轻量应用服务器，想着搞点东西玩玩
 ## 下载
 1. 服务端压缩包

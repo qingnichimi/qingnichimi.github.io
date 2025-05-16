@@ -11,14 +11,14 @@ export async function generateStaticParams() {
 }
 
 type Props = {
-  params: { id: string }
+  params: Promise<{ id: string }> // Ensure params is a Promise
 }
 
 export default async function Post({ params }: Props) {
-  const { id } = await params // 等待 params 解析
+  const { id } = await params // Await the params to resolve the Promise
 
   try {
-    const post = await getPostData(decodeURIComponent(id)) // 解码，防止文件名不匹配
+    const post = await getPostData(decodeURIComponent(id)) // Decode the ID
 
     return (
       <main className="min-h-screen p-8 max-w-4xl mx-auto">
