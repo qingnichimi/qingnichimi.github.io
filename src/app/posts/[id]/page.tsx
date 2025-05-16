@@ -4,18 +4,21 @@ import { notFound } from 'next/navigation'
 
 export async function generateStaticParams() {
   const fileNames = getAllPostIds()
-  return fileNames
+  // 确保返回的对象包含 id 属性，并且 id 是字符串
+  return fileNames.map(fileName => ({
+    id: encodeURIComponent(fileName.id), // 确保 ID 是字符串并进行编码
+  }))
 }
 
 type Props = {
-  params: Promise<{ id: string }>
+  params: { id: string }
 }
 
 export default async function Post({ params }: Props) {
-  const { id } = await params
+  const { id } = await params // 等待 params 解析
 
   try {
-    const post = await getPostData(id)
+    const post = await getPostData(decodeURIComponent(id)) // 解码，防止文件名不匹配
 
     return (
       <main className="min-h-screen p-8 max-w-4xl mx-auto">
@@ -35,4 +38,4 @@ export default async function Post({ params }: Props) {
   } catch {
     notFound()
   }
-} 
+}

@@ -17,6 +17,7 @@ export interface Post {
 export function getAllPostIds() {
   try {
     const fileNames = fs.readdirSync(postsDirectory)
+    console.log(fileNames)
     return fileNames.map(fileName => ({
       id: fileName.replace(/\.md$/, '')
     }))
