@@ -9,7 +9,13 @@ cd out
 # 初始化 git 仓库（如果不存在）
 if [ ! -d .git ]; then
   git init
-  git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+fi
+
+# 设置远程仓库（如果已存在则更新）
+if git remote | grep -q "origin"; then
+  git remote set-url origin https://github.com/qingnichimi/qingnichimi.github.io.git
+else
+  git remote add origin https://github.com/qingnichimi/qingnichimi.github.io.git
 fi
 
 # 添加所有文件
@@ -19,7 +25,7 @@ git add .
 git commit -m "Deploy to GitHub Pages"
 
 # 推送到 gh-pages 分支
-git push origin HEAD:gh-pages --force
+git push origin HEAD:main --force
 
 # 返回上级目录
 cd .. 
