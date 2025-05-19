@@ -5,19 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // 确保资源路径正确
-  assetPrefix: '/',
   // 确保所有路由都正确处理
-  trailingSlash: true,
-  // 添加重写规则
-  async rewrites() {
-    return [
-      {
-        source: '/posts/:id',
-        destination: '/posts/:id/index.html',
-      },
-    ]
-  }
+  trailingSlash: true
 }
 
 module.exports = nextConfig 

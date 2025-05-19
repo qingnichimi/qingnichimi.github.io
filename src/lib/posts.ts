@@ -19,7 +19,7 @@ export function getAllPostIds() {
   try {
     const fileNames = fs.readdirSync(postsDirectory)
     return fileNames.map(fileName => ({
-      id: encodeURIComponent(fileName.replace(/\.md$/, ''))
+      id: fileName.replace(/\.md$/, '')
     }))
   } catch (error) {
     console.error('Error reading posts directory:', error)
@@ -29,8 +29,7 @@ export function getAllPostIds() {
 
 // 获取指定文章内容
 export async function getPostData(id: string): Promise<Post> {
-  const decodedId = decodeURIComponent(id)
-  const fullPath = path.join(postsDirectory, `${decodedId}.md`)
+  const fullPath = path.join(postsDirectory, `${id}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
 
   const matterResult = matter(fileContents)
@@ -52,7 +51,7 @@ export function getAllPosts(): Post[] {
   try {
     const fileNames = fs.readdirSync(postsDirectory)
     const allPostsData = fileNames.map(fileName => {
-      const id = encodeURIComponent(fileName.replace(/\.md$/, ''))
+      const id = fileName.replace(/\.md$/, '')
       const fullPath = path.join(postsDirectory, fileName)
       const fileContents = fs.readFileSync(fullPath, 'utf8')
       const matterResult = matter(fileContents)
