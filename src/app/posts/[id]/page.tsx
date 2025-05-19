@@ -10,11 +10,11 @@ export async function generateStaticParams() {
 }
 
 type Props = {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }
 
 export default async function Post({ params }: Props) {
-  const { id } = params
+  const { id } = await params
 
   try {
     const post = await getPostData(id)
