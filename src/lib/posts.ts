@@ -14,12 +14,12 @@ export interface Post {
   contentHtml?: string
 }
 
-// 获取所有文章 ID（编码用于 URL）
+// 获取所有文章 ID
 export function getAllPostIds() {
   try {
     const fileNames = fs.readdirSync(postsDirectory)
     return fileNames.map(fileName => ({
-      id: encodeURIComponent(fileName.replace(/\.md$/, ''))
+      id: fileName.replace(/\.md$/, '')
     }))
   } catch (error) {
     console.error('Error reading posts directory:', error)
@@ -27,10 +27,9 @@ export function getAllPostIds() {
   }
 }
 
-// 获取指定文章内容（解码用于文件名）
+// 获取指定文章内容
 export async function getPostData(id: string): Promise<Post> {
-  const decodedId = decodeURIComponent(id)
-  const fullPath = path.join(postsDirectory, `${decodedId}.md`)
+  const fullPath = path.join(postsDirectory, `${id}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
 
   const matterResult = matter(fileContents)
@@ -47,12 +46,12 @@ export async function getPostData(id: string): Promise<Post> {
   }
 }
 
-// 获取所有文章数据（用于首页展示，可保持原样或也加编码）
+// 获取所有文章数据
 export function getAllPosts(): Post[] {
   try {
     const fileNames = fs.readdirSync(postsDirectory)
     const allPostsData = fileNames.map(fileName => {
-      const id = encodeURIComponent(fileName.replace(/\.md$/, '')) // 也建议编码
+      const id = fileName.replace(/\.md$/, '')
       const fullPath = path.join(postsDirectory, fileName)
       const fileContents = fs.readFileSync(fullPath, 'utf8')
       const matterResult = matter(fileContents)
