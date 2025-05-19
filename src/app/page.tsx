@@ -10,7 +10,7 @@ export default function Home() {
       <div className="space-y-8">
         {posts.map(post => (
           <article key={post.id} className="border-b pb-8">
-            <Link href={`/posts/${encodeURIComponent(post.id)}`}>
+            <Link href={`/posts/${post.id}`}>
               <h2 className="text-2xl font-semibold hover:text-blue-600 transition-colors">
                 {post.title}
               </h2>

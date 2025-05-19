@@ -8,7 +8,16 @@ const nextConfig = {
   // 确保资源路径正确
   assetPrefix: '/',
   // 确保所有路由都正确处理
-  trailingSlash: true
+  trailingSlash: true,
+  // 添加重写规则
+  async rewrites() {
+    return [
+      {
+        source: '/posts/:id',
+        destination: '/posts/:id.html',
+      },
+    ]
+  }
 }
 
 module.exports = nextConfig 
