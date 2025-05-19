@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 export async function generateStaticParams() {
   const fileNames = getAllPostIds()
   return fileNames.map(fileName => ({
-    id: `${fileName.id}.html`,
+    id: `${encodeURIComponent(fileName.id)}.html`,
   }))
 }
 
@@ -15,7 +15,7 @@ type Props = {
 
 export default async function Post({ params }: Props) {
   const { id } = await params
-  const actualId = id.replace('.html', '')
+  const actualId = decodeURIComponent(id.replace('.html', ''))
 
   try {
     const post = await getPostData(actualId)
