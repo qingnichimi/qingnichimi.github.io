@@ -9,236 +9,235 @@ c:I[9665,[],"ViewportBoundary"]
 e:I[9665,[],"MetadataBoundary"]
 10:I[6614,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/43595fe4f0c1be46.css","style"]
-0:{"P":null,"b":"JPfFBsdJdF4o-NDgpEFQP","p":"","c":["","posts","springboot-unit-test",""],"i":false,"f":[[["",{"children":["posts",{"children":[["id","springboot-unit-test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/43595fe4f0c1be46.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh","children":["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$3","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","h1",null,{"className":"text-4xl font-bold mb-8","children":"404 - 页面未找到"}],["$","p",null,{"className":"mb-4","children":"抱歉，您请求的页面不存在。"}],["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline","children":"← 返回首页"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["id","springboot-unit-test","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8","$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},[["$","main","l",{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":["$","div",null,{"className":"animate-pulse","children":[["$","div",null,{"className":"h-8 bg-gray-200 rounded w-1/4 mb-8"}],["$","div",null,{"className":"space-y-4","children":[["$","div",null,{"className":"h-4 bg-gray-200 rounded w-3/4"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-1/2"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-2/3"}]]}]]}]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","Oz75Y915GroRF2gAlr0Kjv",{"children":[["$","$Lc",null,{"children":"$Ld"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$Le",null,{"children":"$Lf"}]]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/112059e10a662f1d.css","style"]
+0:{"P":null,"b":"o700pFtDr1kuen-_PyMtS","p":"","c":["","posts","springboot-unit-test",""],"i":false,"f":[[["",{"children":["posts",{"children":[["id","springboot-unit-test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/112059e10a662f1d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh","children":["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$3","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","h1",null,{"className":"text-4xl font-bold mb-8","children":"404 - 页面未找到"}],["$","p",null,{"className":"mb-4","children":"抱歉，您请求的页面不存在。"}],["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline","children":"← 返回首页"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["id","springboot-unit-test","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8","$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},[["$","main","l",{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":["$","div",null,{"className":"animate-pulse","children":[["$","div",null,{"className":"h-8 bg-gray-200 rounded w-1/4 mb-8"}],["$","div",null,{"className":"space-y-4","children":[["$","div",null,{"className":"h-4 bg-gray-200 rounded w-3/4"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-1/2"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-2/3"}]]}]]}]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","GBxvvDD8M6mngDvI_8q6Rv",{"children":[["$","$Lc",null,{"children":"$Ld"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$Le",null,{"children":"$Lf"}]]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
 11:"$Sreact.suspense"
 12:I[4911,[],"AsyncMetadata"]
 f:["$","div",null,{"hidden":true,"children":["$","$11",null,{"fallback":null,"children":["$","$L12",null,{"promise":"$@13"}]}]}]
 9:null
-14:T18a7,<h1>SpringBoot单元测试</h1>
+14:T3c94,<h1>SpringBoot单元测试</h1>
 <h2>Maven依赖</h2>
-<pre><code class="language-xml">        &#x3C;!-- ========= JUnit5 ========= -->
-        &#x3C;dependency>
-            &#x3C;groupId>org.springframework.boot&#x3C;/groupId>
-            &#x3C;artifactId>spring-boot-starter-test&#x3C;/artifactId>
-            &#x3C;scope>test&#x3C;/scope>
-            &#x3C;exclusions>
-                &#x3C;!-- 排除 junit4，避免冲突 -->
-                &#x3C;exclusion>
-                    &#x3C;groupId>junit&#x3C;/groupId>
-                    &#x3C;artifactId>junit&#x3C;/artifactId>
-                &#x3C;/exclusion>
-            &#x3C;/exclusions>
-        &#x3C;/dependency>
+<pre><code class="hljs language-xml">        <span class="hljs-comment">&#x3C;!-- ========= JUnit5 ========= --></span>
+        <span class="hljs-tag">&#x3C;<span class="hljs-name">dependency</span>></span>
+            <span class="hljs-tag">&#x3C;<span class="hljs-name">groupId</span>></span>org.springframework.boot<span class="hljs-tag">&#x3C;/<span class="hljs-name">groupId</span>></span>
+            <span class="hljs-tag">&#x3C;<span class="hljs-name">artifactId</span>></span>spring-boot-starter-test<span class="hljs-tag">&#x3C;/<span class="hljs-name">artifactId</span>></span>
+            <span class="hljs-tag">&#x3C;<span class="hljs-name">scope</span>></span>test<span class="hljs-tag">&#x3C;/<span class="hljs-name">scope</span>></span>
+            <span class="hljs-tag">&#x3C;<span class="hljs-name">exclusions</span>></span>
+                <span class="hljs-comment">&#x3C;!-- 排除 junit4，避免冲突 --></span>
+                <span class="hljs-tag">&#x3C;<span class="hljs-name">exclusion</span>></span>
+                    <span class="hljs-tag">&#x3C;<span class="hljs-name">groupId</span>></span>junit<span class="hljs-tag">&#x3C;/<span class="hljs-name">groupId</span>></span>
+                    <span class="hljs-tag">&#x3C;<span class="hljs-name">artifactId</span>></span>junit<span class="hljs-tag">&#x3C;/<span class="hljs-name">artifactId</span>></span>
+                <span class="hljs-tag">&#x3C;/<span class="hljs-name">exclusion</span>></span>
+            <span class="hljs-tag">&#x3C;/<span class="hljs-name">exclusions</span>></span>
+        <span class="hljs-tag">&#x3C;/<span class="hljs-name">dependency</span>></span>
 
-        &#x3C;!-- ========= Mockito 扩展：Mock 静态方法========= -->
-        &#x3C;dependency>
-            &#x3C;groupId>org.mockito&#x3C;/groupId>
-            &#x3C;artifactId>mockito-inline&#x3C;/artifactId>
-            &#x3C;scope>test&#x3C;/scope>
-        &#x3C;/dependency>
+        <span class="hljs-comment">&#x3C;!-- ========= Mockito 扩展：Mock 静态方法========= --></span>
+        <span class="hljs-tag">&#x3C;<span class="hljs-name">dependency</span>></span>
+            <span class="hljs-tag">&#x3C;<span class="hljs-name">groupId</span>></span>org.mockito<span class="hljs-tag">&#x3C;/<span class="hljs-name">groupId</span>></span>
+            <span class="hljs-tag">&#x3C;<span class="hljs-name">artifactId</span>></span>mockito-inline<span class="hljs-tag">&#x3C;/<span class="hljs-name">artifactId</span>></span>
+            <span class="hljs-tag">&#x3C;<span class="hljs-name">scope</span>></span>test<span class="hljs-tag">&#x3C;/<span class="hljs-name">scope</span>></span>
+        <span class="hljs-tag">&#x3C;/<span class="hljs-name">dependency</span>></span>
 
 </code></pre>
 <h2>Controller示例</h2>
-<pre><code class="language-java">
-@WebMvcTest(DemoController.class)
-class DemoControllerTest {
+<pre><code class="hljs language-java">
+<span class="hljs-meta">@WebMvcTest(DemoController.class)</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">DemoControllerTest</span> {
 
-    @Autowired
-    private MockMvc mockMvc;
+    <span class="hljs-meta">@Autowired</span>
+    <span class="hljs-keyword">private</span> MockMvc mockMvc;
 
-    @MockBean
-    private IDemoService demoService;
+    <span class="hljs-meta">@MockBean</span>
+    <span class="hljs-keyword">private</span> IDemoService demoService;
 
-    @Autowired
-    private ObjectMapper objectMapper;
+    <span class="hljs-meta">@Autowired</span>
+    <span class="hljs-keyword">private</span> ObjectMapper objectMapper;
 
-    @Test
-    void testGetDetail() throws Exception {
-        Demo demo = new Demo();
-        demo.setId("123");
-        demo.setName("测试台账");
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testGetDetail</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception {
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">demo</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>();
+        demo.setId(<span class="hljs-string">"123"</span>);
+        demo.setName(<span class="hljs-string">"测试台账"</span>);
 
-        Mockito.when(demoService.selectDemoById("123"))
+        Mockito.<span class="hljs-keyword">when</span>(demoService.selectDemoById(<span class="hljs-string">"123"</span>))
                 .thenReturn(demo);
 
-        mockMvc.perform(get("/demo/123"))
+        mockMvc.perform(get(<span class="hljs-string">"/demo/123"</span>))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id").value("123"))
-                .andExpect(jsonPath("$.name").value("测试台账"));
+                .andExpect(jsonPath(<span class="hljs-string">"$.id"</span>).value(<span class="hljs-string">"123"</span>))
+                .andExpect(jsonPath(<span class="hljs-string">"$.name"</span>).value(<span class="hljs-string">"测试台账"</span>));
     }
 
 
-    @Test
-    void testAdd() throws Exception {
-        Demo demo = new Demo();
-        demo.setName("新增测试");
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testAdd</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception {
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">demo</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>();
+        demo.setName(<span class="hljs-string">"新增测试"</span>);
 
-        Mockito.when(demoService.insertDemo(any()))
-                .thenReturn(1);
+        Mockito.<span class="hljs-keyword">when</span>(demoService.insertDemo(any()))
+                .thenReturn(<span class="hljs-number">1</span>);
 
-        mockMvc.perform(post("/demo")
+        mockMvc.perform(post(<span class="hljs-string">"/demo"</span>)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(demo)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.code").value(200))
-                .andExpect(jsonPath("$.data").value(1));
+                .andExpect(jsonPath(<span class="hljs-string">"$.code"</span>).value(<span class="hljs-number">200</span>))
+                .andExpect(jsonPath(<span class="hljs-string">"$.data"</span>).value(<span class="hljs-number">1</span>));
     }
 
 
-    @Test
-    void testEdit() throws Exception {
-        Demo demo = new Demo();
-        demo.setId("123");
-        demo.setName("修改后");
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testEdit</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception {
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">demo</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>();
+        demo.setId(<span class="hljs-string">"123"</span>);
+        demo.setName(<span class="hljs-string">"修改后"</span>);
 
-        Mockito.when(demoService.updateDemo(any()))
-                .thenReturn(1);
+        Mockito.<span class="hljs-keyword">when</span>(demoService.updateDemo(any()))
+                .thenReturn(<span class="hljs-number">1</span>);
 
-        mockMvc.perform(put("/demo")
+        mockMvc.perform(put(<span class="hljs-string">"/demo"</span>)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(demo)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.data").value(1));
+                .andExpect(jsonPath(<span class="hljs-string">"$.data"</span>).value(<span class="hljs-number">1</span>));
     }
 
 
-    @Test
-    void testDelete() throws Exception {
-        Mockito.when(demoService.deleteDemoById("123"))
-                .thenReturn(1);
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testDelete</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception {
+        Mockito.<span class="hljs-keyword">when</span>(demoService.deleteDemoById(<span class="hljs-string">"123"</span>))
+                .thenReturn(<span class="hljs-number">1</span>);
 
-        mockMvc.perform(delete("/demo/123"))
+        mockMvc.perform(delete(<span class="hljs-string">"/demo/123"</span>))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.data").value(1));
+                .andExpect(jsonPath(<span class="hljs-string">"$.data"</span>).value(<span class="hljs-number">1</span>));
     }
 }
 </code></pre>
 <h2>Service示例</h2>
-<pre><code class="language-java">
-@ExtendWith(MockitoExtension.class)
-class DemoServiceImplTest {
+<pre><code class="hljs language-java">
+<span class="hljs-meta">@ExtendWith(MockitoExtension.class)</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">DemoServiceImplTest</span> {
 
-    @InjectMocks
-    private DemoServiceImpl service;
+    <span class="hljs-meta">@InjectMocks</span>
+    <span class="hljs-keyword">private</span> DemoServiceImpl service;
 
-    @Mock
-    private DemoMapper mapper;
+    <span class="hljs-meta">@Mock</span>
+    <span class="hljs-keyword">private</span> DemoMapper mapper;
 
-    // mock static
-    private MockedStatic&#x3C;DateUtils> dateUtilsMock;
-    private MockedStatic&#x3C;SecurityUtils> securityUtilsMock;
-    private MockedStatic&#x3C;IdUtils> idUtilsMock;
+    <span class="hljs-comment">// mock static</span>
+    <span class="hljs-keyword">private</span> MockedStatic&#x3C;DateUtils> dateUtilsMock;
+    <span class="hljs-keyword">private</span> MockedStatic&#x3C;SecurityUtils> securityUtilsMock;
+    <span class="hljs-keyword">private</span> MockedStatic&#x3C;IdUtils> idUtilsMock;
 
-    @BeforeEach
-    void setUp() {
+    <span class="hljs-meta">@BeforeEach</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">setUp</span><span class="hljs-params">()</span> {
         dateUtilsMock = mockStatic(DateUtils.class);
         securityUtilsMock = mockStatic(SecurityUtils.class);
         idUtilsMock = mockStatic(IdUtils.class);
     }
 
-    @Test
-    void testSelectById() {
-        Demo demo = new Demo();
-        when(mapper.selectDemoById("1")).thenReturn(demo);
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testSelectById</span><span class="hljs-params">()</span> {
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">demo</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>();
+        <span class="hljs-keyword">when</span>(mapper.selectDemoById(<span class="hljs-string">"1"</span>)).thenReturn(demo);
 
-        Demo result = service.selectDemoById("1");
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">result</span> <span class="hljs-operator">=</span> service.selectDemoById(<span class="hljs-string">"1"</span>);
         assertEquals(demo, result);
     }
 
-    @Test
-    void testSelectList() {
-        Demo param = new Demo();
-        List&#x3C;Demo> list = Arrays.asList(new Demo());
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testSelectList</span><span class="hljs-params">()</span> {
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">param</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>();
+        List&#x3C;Demo> list = Arrays.asList(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>());
 
-        when(mapper.selectDemoList(param)).thenReturn(list);
+        <span class="hljs-keyword">when</span>(mapper.selectDemoList(param)).thenReturn(list);
 
         List&#x3C;Demo> result = service.selectDemoList(param);
-        assertEquals(1, result.size());
+        assertEquals(<span class="hljs-number">1</span>, result.size());
     }
 
-    @Test
-    void testInsert() {
-        Demo demo = new Demo();
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testInsert</span><span class="hljs-params">()</span> {
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">demo</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>();
 
-        Date now = new Date();
-        dateUtilsMock.when(DateUtils::getNowDate).thenReturn(now);
-        securityUtilsMock.when(SecurityUtils::getUserId).thenReturn(123L);
+        <span class="hljs-type">Date</span> <span class="hljs-variable">now</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+        dateUtilsMock.<span class="hljs-keyword">when</span>(DateUtils::getNowDate).thenReturn(now);
+        securityUtilsMock.<span class="hljs-keyword">when</span>(SecurityUtils::getUserId).thenReturn(<span class="hljs-number">123L</span>);
 
-        // Mock UUID
-        idUtilsMock.when(IdUtils::simpleUUID).thenReturn("UUID123");
+        <span class="hljs-comment">// Mock UUID</span>
+        idUtilsMock.<span class="hljs-keyword">when</span>(IdUtils::simpleUUID).thenReturn(<span class="hljs-string">"UUID123"</span>);
 
-        when(mapper.insertDemo(any())).thenReturn(1);
+        <span class="hljs-keyword">when</span>(mapper.insertDemo(any())).thenReturn(<span class="hljs-number">1</span>);
 
-        int r = service.insertDemo(demo);
+        <span class="hljs-type">int</span> <span class="hljs-variable">r</span> <span class="hljs-operator">=</span> service.insertDemo(demo);
 
-        assertEquals(1, r);
+        assertEquals(<span class="hljs-number">1</span>, r);
         assertEquals(now, demo.getCreateTime());
-        assertEquals("tester", demo.getCreateUname());
-        assertEquals(123L, demo.getCreateUid());
-        assertEquals("UUID123", demo.getId());
+        assertEquals(<span class="hljs-string">"tester"</span>, demo.getCreateUname());
+        assertEquals(<span class="hljs-number">123L</span>, demo.getCreateUid());
+        assertEquals(<span class="hljs-string">"UUID123"</span>, demo.getId());
 
         verify(mapper).insertDemo(demo);
     }
 
-    @Test
-    void testUpdate() {
-        Demo demo = new Demo();
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testUpdate</span><span class="hljs-params">()</span> {
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">demo</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>();
 
-        Date now = new Date();
-        dateUtilsMock.when(DateUtils::getNowDate).thenReturn(now);
-        securityUtilsMock.when(SecurityUtils::getUserId).thenReturn(123L);
+        <span class="hljs-type">Date</span> <span class="hljs-variable">now</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+        dateUtilsMock.<span class="hljs-keyword">when</span>(DateUtils::getNowDate).thenReturn(now);
+        securityUtilsMock.<span class="hljs-keyword">when</span>(SecurityUtils::getUserId).thenReturn(<span class="hljs-number">123L</span>);
 
-        when(mapper.updateDemo(any())).thenReturn(1);
+        <span class="hljs-keyword">when</span>(mapper.updateDemo(any())).thenReturn(<span class="hljs-number">1</span>);
 
-        int r = service.updateDemo(demo);
+        <span class="hljs-type">int</span> <span class="hljs-variable">r</span> <span class="hljs-operator">=</span> service.updateDemo(demo);
 
-        assertEquals(1, r);
+        assertEquals(<span class="hljs-number">1</span>, r);
         assertEquals(now, demo.getUpdateTime());
-        assertEquals("tester", demo.getUpdateUname());
-        assertEquals(123L, demo.getUpdateUid());
+        assertEquals(<span class="hljs-string">"tester"</span>, demo.getUpdateUname());
+        assertEquals(<span class="hljs-number">123L</span>, demo.getUpdateUid());
 
         verify(mapper).updateDemo(demo);
     }
 
-    @Test
-    void testDeleteByIds() {
-        when(mapper.deleteDemoByIds(new String[]{"1", "2"})).thenReturn(2);
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testDeleteByIds</span><span class="hljs-params">()</span> {
+        <span class="hljs-keyword">when</span>(mapper.deleteDemoByIds(<span class="hljs-keyword">new</span> <span class="hljs-title class_">String</span>[]{<span class="hljs-string">"1"</span>, <span class="hljs-string">"2"</span>})).thenReturn(<span class="hljs-number">2</span>);
 
-        int r = service.deleteDemoByIds(new String[]{"1", "2"});
-        assertEquals(2, r);
+        <span class="hljs-type">int</span> <span class="hljs-variable">r</span> <span class="hljs-operator">=</span> service.deleteDemoByIds(<span class="hljs-keyword">new</span> <span class="hljs-title class_">String</span>[]{<span class="hljs-string">"1"</span>, <span class="hljs-string">"2"</span>});
+        assertEquals(<span class="hljs-number">2</span>, r);
     }
 
-    @Test
-    void testDeleteById() {
-        when(mapper.deleteDemoById("1")).thenReturn(1);
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testDeleteById</span><span class="hljs-params">()</span> {
+        <span class="hljs-keyword">when</span>(mapper.deleteDemoById(<span class="hljs-string">"1"</span>)).thenReturn(<span class="hljs-number">1</span>);
 
-        int r = service.deleteDemoById("1");
-        assertEquals(1, r);
+        <span class="hljs-type">int</span> <span class="hljs-variable">r</span> <span class="hljs-operator">=</span> service.deleteDemoById(<span class="hljs-string">"1"</span>);
+        assertEquals(<span class="hljs-number">1</span>, r);
     }
 }
 </code></pre>
 <h2>Mapper示例</h2>
-<pre><code class="language-java">@ExtendWith(MockitoExtension.class)
-class DemoMapperMockTest {
+<pre><code class="hljs language-java"><span class="hljs-meta">@ExtendWith(MockitoExtension.class)</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">DemoMapperMockTest</span> {
 
-    @Mock
-    private DemoMapper mapper;
+    <span class="hljs-meta">@Mock</span>
+    <span class="hljs-keyword">private</span> DemoMapper mapper;
 
-    @Test
-    void testMockSelectById() {
-        Demo demo = new Demo();
-        demo.setId("1");
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-keyword">void</span> <span class="hljs-title function_">testMockSelectById</span><span class="hljs-params">()</span> {
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">demo</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Demo</span>();
+        demo.setId(<span class="hljs-string">"1"</span>);
 
-        when(mapper.selectDemoById("1")).thenReturn(demo);
+        <span class="hljs-keyword">when</span>(mapper.selectDemoById(<span class="hljs-string">"1"</span>)).thenReturn(demo);
 
-        Demo result = mapper.selectDemoById("1");
+        <span class="hljs-type">Demo</span> <span class="hljs-variable">result</span> <span class="hljs-operator">=</span> mapper.selectDemoById(<span class="hljs-string">"1"</span>);
 
-        assertEquals("1", result.getId());
+        assertEquals(<span class="hljs-string">"1"</span>, result.getId());
     }
 }
-</code></pre>
-6:["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 inline-block","children":"← 返回首页"}],["$","article",null,{"className":"mt-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"SpringBoot单元测试示例"}],["$","div",null,{"className":"text-gray-600 mb-8","children":"2025-12-09"}],["$","div",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$14"}}]]}]]}]
+</code></pre>6:["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 inline-block","children":"← 返回首页"}],["$","article",null,{"className":"mt-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"SpringBoot单元测试示例"}],["$","div",null,{"className":"text-gray-600 mb-8","children":"2025-12-09"}],["$","div",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$14"}}]]}]]}]
 d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
 b:{"metadata":[["$","title","0",{"children":"九局下半"}],["$","meta","1",{"name":"description","content":"九局下半的个人博客"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}

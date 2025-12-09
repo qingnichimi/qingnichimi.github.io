@@ -9,63 +9,63 @@ c:I[9665,[],"ViewportBoundary"]
 e:I[9665,[],"MetadataBoundary"]
 10:I[6614,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/43595fe4f0c1be46.css","style"]
-0:{"P":null,"b":"JPfFBsdJdF4o-NDgpEFQP","p":"","c":["","posts","teamspeak-setup",""],"i":false,"f":[[["",{"children":["posts",{"children":[["id","teamspeak-setup","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/43595fe4f0c1be46.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh","children":["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$3","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","h1",null,{"className":"text-4xl font-bold mb-8","children":"404 - 页面未找到"}],["$","p",null,{"className":"mb-4","children":"抱歉，您请求的页面不存在。"}],["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline","children":"← 返回首页"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["id","teamspeak-setup","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8","$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},[["$","main","l",{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":["$","div",null,{"className":"animate-pulse","children":[["$","div",null,{"className":"h-8 bg-gray-200 rounded w-1/4 mb-8"}],["$","div",null,{"className":"space-y-4","children":[["$","div",null,{"className":"h-4 bg-gray-200 rounded w-3/4"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-1/2"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-2/3"}]]}]]}]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","DmfYf0PGEvPmSKPBIgenVv",{"children":[["$","$Lc",null,{"children":"$Ld"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$Le",null,{"children":"$Lf"}]]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/112059e10a662f1d.css","style"]
+0:{"P":null,"b":"o700pFtDr1kuen-_PyMtS","p":"","c":["","posts","teamspeak-setup",""],"i":false,"f":[[["",{"children":["posts",{"children":[["id","teamspeak-setup","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/112059e10a662f1d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh","children":["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$3","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","h1",null,{"className":"text-4xl font-bold mb-8","children":"404 - 页面未找到"}],["$","p",null,{"className":"mb-4","children":"抱歉，您请求的页面不存在。"}],["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline","children":"← 返回首页"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["id","teamspeak-setup","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8","$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},[["$","main","l",{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":["$","div",null,{"className":"animate-pulse","children":[["$","div",null,{"className":"h-8 bg-gray-200 rounded w-1/4 mb-8"}],["$","div",null,{"className":"space-y-4","children":[["$","div",null,{"className":"h-4 bg-gray-200 rounded w-3/4"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-1/2"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-2/3"}]]}]]}]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","AJKOKPDEcr5w8mFyF20Vhv",{"children":[["$","$Lc",null,{"children":"$Ld"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$Le",null,{"children":"$Lf"}]]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
 11:"$Sreact.suspense"
 12:I[4911,[],"AsyncMetadata"]
 f:["$","div",null,{"hidden":true,"children":["$","$11",null,{"fallback":null,"children":["$","$L12",null,{"promise":"$@13"}]}]}]
 9:null
-14:T985,<h2>前言</h2>
+14:Tb4d,<h2>前言</h2>
 <p>买了个轻量应用服务器，想着搞点东西玩玩</p>
 <h2>下载</h2>
 <ol>
 <li>服务端压缩包
-https://www.teamspeak.com/en/downloads/#server</li>
+<a href="https://www.teamspeak.com/en/downloads/#server">https://www.teamspeak.com/en/downloads/#server</a></li>
 <li>客户端
-https://www.teamspeak.com/en/downloads/#ts3client</li>
+<a href="https://www.teamspeak.com/en/downloads/#ts3client">https://www.teamspeak.com/en/downloads/#ts3client</a></li>
 </ol>
 <h2>安装部署</h2>
 <ol>
 <li>上传服务端压缩包到Linux服务器，解压</li>
 </ol>
-<pre><code class="language-bash">tar xvf teamspeak3-server_linux_amd64-3.13.7.tar.bz2
+<pre><code class="hljs language-bash">tar xvf teamspeak3-server_linux_amd64-3.13.7.tar.bz2
 </code></pre>
 <ol start="2">
 <li>不建议使用root启动服务，创建一个teamspeak用户</li>
 </ol>
-<pre><code class="language-bash">mv teamspeak3-server_linux_amd64 /home/teamspeak/teamspeak3
+<pre><code class="hljs language-bash"><span class="hljs-built_in">mv</span> teamspeak3-server_linux_amd64 /home/teamspeak/teamspeak3
 useradd teamspeak
 passwd teamspeak
-chown -R teamspeak:teamspeak /home/teamspeak/teamspeak3/
+<span class="hljs-built_in">chown</span> -R teamspeak:teamspeak /home/teamspeak/teamspeak3/
 su teamspeak
 </code></pre>
 <ol start="3">
 <li>创建同意许可条款文件</li>
 </ol>
-<pre><code class="language-bash">cd /home/teamspeak/teamspeak3
-touch .ts3server_license_accepted
+<pre><code class="hljs language-bash"><span class="hljs-built_in">cd</span> /home/teamspeak/teamspeak3
+<span class="hljs-built_in">touch</span> .ts3server_license_accepted
 </code></pre>
 <ol start="4">
 <li>启动服务</li>
 </ol>
-<pre><code class="language-bash">./ts3server_startscript.sh start
+<pre><code class="hljs language-bash">./ts3server_startscript.sh start
 </code></pre>
 <ol start="5">
 <li>第一次启动后会有秘钥和管理员账号密码，需要将其记下，后面用到</li>
 </ol>
-<pre><code class="language-bash">----------------------------------------------------------------- 
+<pre><code class="hljs language-bash">----------------------------------------------------------------- 
 I M P O R T A N T 
 ------------------------------------------------------------------ 
 Server Query Admin Account created 
-loginname= "666", password= "666" 
-apikey= "666" 
+loginname= <span class="hljs-string">"666"</span>, password= <span class="hljs-string">"666"</span> 
+apikey= <span class="hljs-string">"666"</span> 
 ------------------------------------------------------------------ 
 ------------------------------------------------------------------ 
 I M P O R T A N T 
 ------------------------------------------------------------------ 
 ServerAdmin privilege key created, please use it to gain 
-serveradmin rights for your virtualserver. please 
-also check the doc/privilegekey_guide.txt for details. 
+serveradmin rights <span class="hljs-keyword">for</span> your virtualserver. please 
+also check the doc/privilegekey_guide.txt <span class="hljs-keyword">for</span> details. 
 token=666
 ------------------------------------------------------------------ 
 </code></pre>
@@ -78,8 +78,7 @@ token=666
 <img src="https://raw.githubusercontent.com/qingnichimi/pictrue/master/blog/1706855898308.jpg" alt=""></li>
 <li>连接成功后会要求输入token，即上述启动成功后所显示的</li>
 <li>这样就完成TS的服务搭建。其他的具体用法还需要慢慢研究。</li>
-</ol>
-6:["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 inline-block","children":"← 返回首页"}],["$","article",null,{"className":"mt-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"TeamSpeak服务端搭建"}],["$","div",null,{"className":"text-gray-600 mb-8","children":"2024-05-20"}],["$","div",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$14"}}]]}]]}]
+</ol>6:["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 inline-block","children":"← 返回首页"}],["$","article",null,{"className":"mt-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"TeamSpeak服务端搭建"}],["$","div",null,{"className":"text-gray-600 mb-8","children":"2024-05-20"}],["$","div",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$14"}}]]}]]}]
 d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
 b:{"metadata":[["$","title","0",{"children":"九局下半"}],["$","meta","1",{"name":"description","content":"九局下半的个人博客"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
