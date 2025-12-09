@@ -1,9 +1,11 @@
-import fs from 'fs'
-import matter from 'gray-matter'
-import path from 'path'
-import { remark } from 'remark'
-import html from 'remark-html'
-
+import fs from 'fs';
+import matter from 'gray-matter';
+import path from 'path';
+import rehypeHighlight from 'rehype-highlight';
+import rehypeStringify from 'rehype-stringify';
+import { remark } from 'remark';
+import remarkGfm from 'remark-gfm';
+import remarkRehype from 'remark-rehype';
 const postsDirectory = path.join(process.cwd(), 'content/posts')
 
 export interface Post {
@@ -28,22 +30,25 @@ export function getAllPostIds() {
 }
 
 // 获取指定文章内容
-export async function getPostData(id: string): Promise<Post> {
+export async function getPostData(id: string) {
   const fullPath = path.join(postsDirectory, `${id}.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
+  if (!fs.existsSync(fullPath)) throw new Error('Post not found');
 
-  const matterResult = matter(fileContents)
+  const fileContents = fs.readFileSync(fullPath, 'utf-8');
+  const { content, data } = matter(fileContents);
 
   const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content)
-  const contentHtml = processedContent.toString()
+    .use(remarkGfm)       // 支持表格、任务列表、表情
+    .use(remarkRehype)    // Markdown → HTML AST
+    .use(rehypeHighlight) // 代码块高亮
+    .use(rehypeStringify) // 输出 HTML
+    .process(content);
 
   return {
     id,
-    contentHtml,
-    ...(matterResult.data as { title: string; date: string; description: string })
-  }
+    contentHtml: processedContent.toString(),
+    ...(data as { title: string; date: string })
+  };
 }
 
 // 获取所有文章数据
