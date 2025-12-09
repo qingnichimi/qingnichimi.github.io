@@ -27,7 +27,17 @@ export default function Home() {
           {/* 主要内容区域 */}
           <div className="col-span-8">
             <header className="text-center mb-16">
-              <h1 className="text-4xl font-bold mb-4">九局下半</h1>
+              {/* 头像 */}
+              <div className="mx-auto">
+                <img
+                  src="/avatar.png"  // <<< 你自己的头像路径
+                  alt="avatar"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover mx-auto shadow-md border"
+                />
+              </div>
+              <h1 className="text-4xl font-bold">九局下半</h1>
             </header>
             <div className="space-y-20">
               {sortedYears.map(year => (
