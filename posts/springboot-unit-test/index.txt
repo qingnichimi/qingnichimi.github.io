@@ -1,0 +1,245 @@
+1:"$Sreact.fragment"
+2:I[7555,[],""]
+3:I[1901,["874","static/chunks/874-9a172bef94aec849.js","39","static/chunks/app/error-65e10ec63dfd4efd.js"],"default"]
+4:I[1295,[],""]
+5:I[6874,["874","static/chunks/874-9a172bef94aec849.js","880","static/chunks/app/posts/%5Bid%5D/page-07b64c6643572554.js"],""]
+7:I[9665,[],"OutletBoundary"]
+a:I[4911,[],"AsyncMetadataOutlet"]
+c:I[9665,[],"ViewportBoundary"]
+e:I[9665,[],"MetadataBoundary"]
+10:I[6614,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/43595fe4f0c1be46.css","style"]
+0:{"P":null,"b":"JPfFBsdJdF4o-NDgpEFQP","p":"","c":["","posts","springboot-unit-test",""],"i":false,"f":[[["",{"children":["posts",{"children":[["id","springboot-unit-test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/43595fe4f0c1be46.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh","children":["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$3","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","h1",null,{"className":"text-4xl font-bold mb-8","children":"404 - 页面未找到"}],["$","p",null,{"className":"mb-4","children":"抱歉，您请求的页面不存在。"}],["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline","children":"← 返回首页"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["id","springboot-unit-test","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8","$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},[["$","main","l",{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":["$","div",null,{"className":"animate-pulse","children":[["$","div",null,{"className":"h-8 bg-gray-200 rounded w-1/4 mb-8"}],["$","div",null,{"className":"space-y-4","children":[["$","div",null,{"className":"h-4 bg-gray-200 rounded w-3/4"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-1/2"}],["$","div",null,{"className":"h-4 bg-gray-200 rounded w-2/3"}]]}]]}]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","Oz75Y915GroRF2gAlr0Kjv",{"children":[["$","$Lc",null,{"children":"$Ld"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$Le",null,{"children":"$Lf"}]]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+11:"$Sreact.suspense"
+12:I[4911,[],"AsyncMetadata"]
+f:["$","div",null,{"hidden":true,"children":["$","$11",null,{"fallback":null,"children":["$","$L12",null,{"promise":"$@13"}]}]}]
+9:null
+14:T18a7,<h1>SpringBoot单元测试</h1>
+<h2>Maven依赖</h2>
+<pre><code class="language-xml">        &#x3C;!-- ========= JUnit5 ========= -->
+        &#x3C;dependency>
+            &#x3C;groupId>org.springframework.boot&#x3C;/groupId>
+            &#x3C;artifactId>spring-boot-starter-test&#x3C;/artifactId>
+            &#x3C;scope>test&#x3C;/scope>
+            &#x3C;exclusions>
+                &#x3C;!-- 排除 junit4，避免冲突 -->
+                &#x3C;exclusion>
+                    &#x3C;groupId>junit&#x3C;/groupId>
+                    &#x3C;artifactId>junit&#x3C;/artifactId>
+                &#x3C;/exclusion>
+            &#x3C;/exclusions>
+        &#x3C;/dependency>
+
+        &#x3C;!-- ========= Mockito 扩展：Mock 静态方法========= -->
+        &#x3C;dependency>
+            &#x3C;groupId>org.mockito&#x3C;/groupId>
+            &#x3C;artifactId>mockito-inline&#x3C;/artifactId>
+            &#x3C;scope>test&#x3C;/scope>
+        &#x3C;/dependency>
+
+</code></pre>
+<h2>Controller示例</h2>
+<pre><code class="language-java">
+@WebMvcTest(DemoController.class)
+class DemoControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private IDemoService demoService;
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    @Test
+    void testGetDetail() throws Exception {
+        Demo demo = new Demo();
+        demo.setId("123");
+        demo.setName("测试台账");
+
+        Mockito.when(demoService.selectDemoById("123"))
+                .thenReturn(demo);
+
+        mockMvc.perform(get("/demo/123"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value("123"))
+                .andExpect(jsonPath("$.name").value("测试台账"));
+    }
+
+
+    @Test
+    void testAdd() throws Exception {
+        Demo demo = new Demo();
+        demo.setName("新增测试");
+
+        Mockito.when(demoService.insertDemo(any()))
+                .thenReturn(1);
+
+        mockMvc.perform(post("/demo")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(objectMapper.writeValueAsString(demo)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.code").value(200))
+                .andExpect(jsonPath("$.data").value(1));
+    }
+
+
+    @Test
+    void testEdit() throws Exception {
+        Demo demo = new Demo();
+        demo.setId("123");
+        demo.setName("修改后");
+
+        Mockito.when(demoService.updateDemo(any()))
+                .thenReturn(1);
+
+        mockMvc.perform(put("/demo")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(objectMapper.writeValueAsString(demo)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.data").value(1));
+    }
+
+
+    @Test
+    void testDelete() throws Exception {
+        Mockito.when(demoService.deleteDemoById("123"))
+                .thenReturn(1);
+
+        mockMvc.perform(delete("/demo/123"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.data").value(1));
+    }
+}
+</code></pre>
+<h2>Service示例</h2>
+<pre><code class="language-java">
+@ExtendWith(MockitoExtension.class)
+class DemoServiceImplTest {
+
+    @InjectMocks
+    private DemoServiceImpl service;
+
+    @Mock
+    private DemoMapper mapper;
+
+    // mock static
+    private MockedStatic&#x3C;DateUtils> dateUtilsMock;
+    private MockedStatic&#x3C;SecurityUtils> securityUtilsMock;
+    private MockedStatic&#x3C;IdUtils> idUtilsMock;
+
+    @BeforeEach
+    void setUp() {
+        dateUtilsMock = mockStatic(DateUtils.class);
+        securityUtilsMock = mockStatic(SecurityUtils.class);
+        idUtilsMock = mockStatic(IdUtils.class);
+    }
+
+    @Test
+    void testSelectById() {
+        Demo demo = new Demo();
+        when(mapper.selectDemoById("1")).thenReturn(demo);
+
+        Demo result = service.selectDemoById("1");
+        assertEquals(demo, result);
+    }
+
+    @Test
+    void testSelectList() {
+        Demo param = new Demo();
+        List&#x3C;Demo> list = Arrays.asList(new Demo());
+
+        when(mapper.selectDemoList(param)).thenReturn(list);
+
+        List&#x3C;Demo> result = service.selectDemoList(param);
+        assertEquals(1, result.size());
+    }
+
+    @Test
+    void testInsert() {
+        Demo demo = new Demo();
+
+        Date now = new Date();
+        dateUtilsMock.when(DateUtils::getNowDate).thenReturn(now);
+        securityUtilsMock.when(SecurityUtils::getUserId).thenReturn(123L);
+
+        // Mock UUID
+        idUtilsMock.when(IdUtils::simpleUUID).thenReturn("UUID123");
+
+        when(mapper.insertDemo(any())).thenReturn(1);
+
+        int r = service.insertDemo(demo);
+
+        assertEquals(1, r);
+        assertEquals(now, demo.getCreateTime());
+        assertEquals("tester", demo.getCreateUname());
+        assertEquals(123L, demo.getCreateUid());
+        assertEquals("UUID123", demo.getId());
+
+        verify(mapper).insertDemo(demo);
+    }
+
+    @Test
+    void testUpdate() {
+        Demo demo = new Demo();
+
+        Date now = new Date();
+        dateUtilsMock.when(DateUtils::getNowDate).thenReturn(now);
+        securityUtilsMock.when(SecurityUtils::getUserId).thenReturn(123L);
+
+        when(mapper.updateDemo(any())).thenReturn(1);
+
+        int r = service.updateDemo(demo);
+
+        assertEquals(1, r);
+        assertEquals(now, demo.getUpdateTime());
+        assertEquals("tester", demo.getUpdateUname());
+        assertEquals(123L, demo.getUpdateUid());
+
+        verify(mapper).updateDemo(demo);
+    }
+
+    @Test
+    void testDeleteByIds() {
+        when(mapper.deleteDemoByIds(new String[]{"1", "2"})).thenReturn(2);
+
+        int r = service.deleteDemoByIds(new String[]{"1", "2"});
+        assertEquals(2, r);
+    }
+
+    @Test
+    void testDeleteById() {
+        when(mapper.deleteDemoById("1")).thenReturn(1);
+
+        int r = service.deleteDemoById("1");
+        assertEquals(1, r);
+    }
+}
+</code></pre>
+<h2>Mapper示例</h2>
+<pre><code class="language-java">@ExtendWith(MockitoExtension.class)
+class DemoMapperMockTest {
+
+    @Mock
+    private DemoMapper mapper;
+
+    @Test
+    void testMockSelectById() {
+        Demo demo = new Demo();
+        demo.setId("1");
+
+        when(mapper.selectDemoById("1")).thenReturn(demo);
+
+        Demo result = mapper.selectDemoById("1");
+
+        assertEquals("1", result.getId());
+    }
+}
+</code></pre>
+6:["$","main",null,{"className":"min-h-screen p-8 max-w-4xl mx-auto","children":[["$","$L5",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 inline-block","children":"← 返回首页"}],["$","article",null,{"className":"mt-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"SpringBoot单元测试示例"}],["$","div",null,{"className":"text-gray-600 mb-8","children":"2025-12-09"}],["$","div",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$14"}}]]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+b:{"metadata":[["$","title","0",{"children":"九局下半"}],["$","meta","1",{"name":"description","content":"九局下半的个人博客"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+13:{"metadata":"$b:metadata","error":null,"digest":"$undefined"}
