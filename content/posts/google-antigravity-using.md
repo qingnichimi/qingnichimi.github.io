@@ -4,7 +4,7 @@ date: '2025-12-15'
 description: 'AI'
 ---
 # 使用Proxifier指定代理
-也有说Clash开tun模式的，但是我开了也一样无法验证登录，用Proxifier后可以
+~~也有说Clash开tun模式的，但是我开了也一样无法验证登录~~，使用管理员身份打开clash，然后打开tun模式可以成功代理；用Proxifier后可以
 ## 激活码
 实测有效
 ```
