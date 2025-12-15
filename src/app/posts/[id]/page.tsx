@@ -20,7 +20,7 @@ export default async function Post({ params }: Props) {
     const post = await getPostData(id)
 
     return (
-      <main className="min-h-screen p-8 max-w-4xl mx-auto">
+      <main className="min-h-screen p-8 max-w-4xl mx-auto flex justify-center">
         <Link href="/" className="text-blue-600 hover:underline mb-8 inline-block">
           ← 返回首页
         </Link>
