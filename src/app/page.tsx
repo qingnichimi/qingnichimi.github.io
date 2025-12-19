@@ -20,7 +20,7 @@ export default function Home() {
     <main className="min-h-screen py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-12 gap-8">
-          
+
           <div className="col-span-2" />
 
           <div className="col-span-8">
@@ -40,7 +40,7 @@ export default function Home() {
             <div className="space-y-20">
               {sortedYears.map(year => (
                 <section key={year} className="space-y-8">
-                  
+
                   <h2 className="text-2xl font-semibold text-gray-800 border-b pb-2">
                     {year} 年
                   </h2>

@@ -1,11 +1,6 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import path from 'path';
-import rehypeHighlight from 'rehype-highlight';
-import rehypeStringify from 'rehype-stringify';
-import { remark } from 'remark';
-import remarkGfm from 'remark-gfm';
-import remarkRehype from 'remark-rehype';
 const postsDirectory = path.join(process.cwd(), 'content/posts')
 
 export interface Post {
@@ -13,7 +8,7 @@ export interface Post {
   title: string
   date: string
   description: string
-  contentHtml?: string
+  content?: string
 }
 
 // 获取所有文章 ID
@@ -37,16 +32,9 @@ export async function getPostData(id: string) {
   const fileContents = fs.readFileSync(fullPath, 'utf-8');
   const { content, data } = matter(fileContents);
 
-  const processedContent = await remark()
-    .use(remarkGfm)       // 支持表格、任务列表、表情
-    .use(remarkRehype)    // Markdown → HTML AST
-    .use(rehypeHighlight) // 代码块高亮
-    .use(rehypeStringify) // 输出 HTML
-    .process(content);
-
   return {
     id,
-    contentHtml: processedContent.toString(),
+    content, // Return raw content for MDX
     ...(data as { title: string; date: string })
   };
 }

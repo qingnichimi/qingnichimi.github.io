@@ -12,6 +12,7 @@
   "dependencies": {
     "gray-matter": "^4.0.3",
     "next": "15.3.6",
+    "next-mdx-remote": "^5.0.0",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "rehype-highlight": "^7.0.2",
