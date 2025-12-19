@@ -1,5 +1,4 @@
 import { getAllPostIds, getPostData } from '@/lib/posts'
-import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
 export async function generateStaticParams() {
@@ -22,13 +21,6 @@ export default async function Post({ params }: Props) {
     return (
       <main className="min-h-screen p-8 bg-white dark:bg-zinc-900">
         <div className="max-w-2xl mx-auto">
-          {/* <Link
-            href="/"
-            className="group inline-flex items-center text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition-colors duration-200 mb-12"
-          >
-            <span className="group-hover:-translate-x-1 transition-transform duration-200 mr-1">←</span>
-            Back to Home
-          </Link> */}
 
           <article>
             <header className="mb-12 text-center">
