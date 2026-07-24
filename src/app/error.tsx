@@ -10,15 +10,12 @@ export default function Error({
   reset: () => void
 }) {
   return (
-    <main className="min-h-screen p-8 max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold mb-8">出错了</h1>
-      <p className="mb-4">抱歉，加载页面时发生错误。</p>
-      {error.message && (
-        <p className="mb-4 text-sm text-gray-600">
-          错误信息: {error.message}
-        </p>
-      )}
-      <div className="space-x-4">
+    <main className="py-10 max-w-xl mx-auto px-6">
+      <h1 className="text-2xl font-bold mb-4">出错了</h1>
+      <p className="mb-4 text-sm text-gray-500">
+        {error.message || '加载页面时发生错误'}
+      </p>
+      <div className="space-x-4 text-sm">
         <button
           onClick={reset}
           className="text-blue-600 hover:underline"
@@ -31,4 +28,4 @@ export default function Error({
       </div>
     </main>
   )
-} 
+}

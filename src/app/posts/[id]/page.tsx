@@ -1,4 +1,5 @@
 import { getAllPostIds, getPostData } from '@/lib/posts'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
@@ -22,23 +23,23 @@ export default async function Post({ params }: Props) {
     const post = await getPostData(id)
 
     return (
-      <main className="min-h-screen p-8 bg-white dark:bg-zinc-900">
-        <div className="max-w-2xl mx-auto">
+      <main className="py-10">
+        <div className="max-w-3xl mx-auto px-6">
 
           <article>
-            <header className="mb-12 text-center">
-              <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-4 leading-tight">
+            <header className="mb-8">
+              <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
                 {post.title}
               </h1>
-              <time className="text-gray-500 dark:text-gray-400 font-medium">
+              <time className="block mt-2 text-sm text-gray-500 dark:text-gray-400">
                 {post.date}
               </time>
             </header>
 
-            <div className="prose prose-lg prose-slate dark:prose-invert mx-auto max-w-none 
-                prose-headings:font-bold prose-headings:tracking-tight
+            <div className="prose prose-lg prose-slate dark:prose-invert max-w-none
+                prose-headings:font-bold
                 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
-                prose-img:max-h-96 prose-img:w-auto prose-img:mx-auto prose-img:rounded-lg prose-img:border prose-img:border-gray-200 dark:prose-img:border-zinc-700"
+                prose-img:max-h-96 prose-img:w-auto prose-img:mx-auto prose-img:rounded-lg"
             >
               <MDXRemote
                 source={post.content || ''}
@@ -51,6 +52,10 @@ export default async function Post({ params }: Props) {
               />
             </div>
           </article>
+
+          <footer className="mt-12 pt-6 border-t text-sm text-gray-400">
+            <Link href="/">← 返回首页</Link>
+          </footer>
         </div>
       </main>
     )
